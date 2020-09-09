@@ -45,6 +45,9 @@ export class HomeComponent implements OnInit {
       { field: 'ProjectName', title: 'Project', type: 'string' },
       { field: 'ProductsPurchased', title: 'Products', type: 'string' },
       { field: 'InitialStartDate', title: 'Start Date', type: 'date' },
+      { field: 'LastRenewDate', title: 'Last Renew date', type: 'date' },
+      { field: 'AMCRenewDate', title: 'AMC Renew Date', type: 'date' },
+      { field: 'AMCCharge', title: 'AMCCharge', type: 'string' },
       {
         field: 'CusPointOfContact.Name',
         title: 'Person Of Contact',
@@ -53,11 +56,6 @@ export class HomeComponent implements OnInit {
       {
         field: 'CusPointOfContact.Email',
         title: 'Contact Email',
-        type: 'string',
-      },
-      {
-        field: 'status',
-        title: 'status',
         type: 'string',
       }
     ];
